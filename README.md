@@ -66,6 +66,6 @@ Este projeto está sob a licença MIT — veja o arquivo [LICENSE](LICENSE) para
 
 ## 👤 Autor
 
-Desenvolvido por [seu nome] como parte de um desafio de curso de Java.
+Desenvolvido por Walid Arnous Alves como parte de um desafio de curso de Java.
 
 [LinkedIn](#) • [GitHub](#)
