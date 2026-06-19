@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)
 
 Sistema de console desenvolvido em Java para gerenciar o empréstimo de livros de uma biblioteca. Projeto criado como parte de um desafio de curso, com foco em prática de orientação a objetos: classes, objetos, listas e interação com o usuário via terminal.
 
@@ -13,10 +13,13 @@ O programa permite consultar os livros disponíveis para empréstimo e registrar
 ## ✅ Funcionalidades
 
 - [x] Modelagem das classes principais (`Autor`, `Livro`, `Emprestimo`, `Biblioteca`)
-- [ ] Listagem dos livros disponíveis no console
-- [ ] Registro de empréstimo de um livro
-- [ ] Loop interativo com o usuário (menu inicial)
-- [ ] Mensagem de despedida ao final da execução
+- [x] Listagem dos livros disponíveis no console
+- [x] Registro de empréstimo de um livro
+- [x] Loop interativo com o usuário (menu inicial)
+- [x] Mensagem de despedida ao final da execução
+- [x] Validação de entrada (id inválido, não numérico, livro já emprestado)
+
+> **Nota de design:** segundo a especificação original, o programa deveria encerrar após a conclusão de um empréstimo. Optei por manter o loop ativo após o empréstimo, permitindo múltiplos empréstimos na mesma execução.
 
 ### 🚀 Próximos passos (evoluções futuras)
 
@@ -41,7 +44,7 @@ Este é um projeto Java simples, sem gerenciador de dependências (Maven/Gradle)
 
 1. Clone o repositório:
    ```sh
-   git clone [link-do-repositorio]
+   git clone https://github.com/walidalves/sistema-de-livraria.git
    ```
 2. Abra a pasta do projeto no IntelliJ IDEA.
 3. Localize a classe `Main` e execute-a (botão ▶️ ao lado do método `main`, ou `Shift + F10`).
@@ -68,4 +71,4 @@ Este projeto está sob a licença MIT — veja o arquivo [LICENSE](LICENSE) para
 
 Desenvolvido por Walid Arnous Alves como parte de um desafio de curso de Java.
 
-[LinkedIn](#) • [GitHub](#)
+[LinkedIn](https://www.linkedin.com/in/walid-arnous-alves-b5128927/) • [GitHub](#)
