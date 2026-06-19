@@ -27,4 +27,13 @@ public class Biblioteca {
         Livro livro3 = new Livro(3,"Nova Era",  autor2, true, LocalDate.now(), LocalDate.now());
         livros.add(livro3);
     }
+
+    public void listarLivrosDisponiveis() {
+        for (Livro livro : livros) {
+            if (livro.isDisponivel()) {
+                System.out.println(livro.getId() + " - " + livro.getTitulo() +
+                        " | Autor: " + livro.getAutor().getNome());
+            }
+        }
+    }
 }
