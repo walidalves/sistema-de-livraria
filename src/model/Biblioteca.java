@@ -36,4 +36,26 @@ public class Biblioteca {
             }
         }
     }
+
+    public boolean realizarEmprestimo(int idLivro, String nomeCliente) {
+        for (Livro livro : livros) {
+            if (livro.getId() == idLivro && livro.isDisponivel()) {
+                livro.marcarComoEmprestado();
+                Emprestimo emprestimo = new Emprestimo(emprestimos.size() + 1, livro, nomeCliente, LocalDate.now());
+                emprestimos.add(emprestimo);
+                System.out.println("Empréstimo realizado com sucesso! Livro: " + livro.getTitulo() + " | Cliente: " + nomeCliente);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Livro buscarLivroPorId(int idLivro) {
+        for (Livro livro : livros) {
+            if (livro.getId() == idLivro) {
+                return livro;
+            }
+        }
+        return null;
+    }
 }
