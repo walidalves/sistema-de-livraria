@@ -44,7 +44,7 @@ Este é um projeto Java simples, sem gerenciador de dependências (Maven/Gradle)
 
 1. Clone o repositório:
    ```sh
-   git clone [link-do-repositorio]
+   git clone https://github.com/walidalves/sistema-de-livraria.git
    ```
 2. Abra a pasta do projeto no IntelliJ IDEA.
 3. Localize a classe `Main` e execute-a (botão ▶️ ao lado do método `main`, ou `Shift + F10`).
