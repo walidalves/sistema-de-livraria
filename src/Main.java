@@ -42,7 +42,7 @@ public class Main {
 
         } while (resposta.equalsIgnoreCase("SIM"));
 
-        System.out.println("Valeu! Obrigado");
+        System.out.println("Valeu! Obrigado e volte sempre!");
         scanner.close();
     }
 }
