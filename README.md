@@ -19,7 +19,7 @@ O programa permite consultar os livros disponíveis para empréstimo e registrar
 - [x] Mensagem de despedida ao final da execução
 - [x] Validação de entrada (id inválido, não numérico, livro já emprestado)
 
-> **Nota de design:** segundo a especificação original, o programa deveria encerrar após a conclusão de um empréstimo. Optei por manter o loop ativo após o empréstimo, permitindo múltiplos empréstimos na mesma execução — uma decisão consciente de UX, divergindo levemente do enunciado original.
+> **Nota de design:** segundo a especificação original, o programa deveria encerrar após a conclusão de um empréstimo. Optei por manter o loop ativo após o empréstimo, permitindo múltiplos empréstimos na mesma execução.
 
 ### 🚀 Próximos passos (evoluções futuras)
 
